@@ -1,0 +1,60 @@
+html{
+    /* =======================================
+          * COLORS BASE 
+    =========================================*/
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --blue-color:#3B82F6;
+    --green-color:#10B981;
+    --yellow-color:#F59E0B;
+    --red-color:#EF4444;
+    --gray-color:#6B7280;
+  
+    /* =======================================
+          * COLORS VARIATIONS 
+          ? write your custom colors
+          ? colors alpha
+    =========================================*/
+
+    --white-color-alpha: rgba(255, 255, 255, .1);
+    --white-color-alpha-1: rgba(255,255,255,.2);
+    --white-color-alpha-2: rgba(255,255,255,.3);
+    --white-color-alpha-3: rgba(255,255,255,.4);
+    --white-color-alpha-4: rgba(255,255,255,.5);
+    --white-color-alpha-5: rgba(255,255,255,.6);
+
+    
+    --black-color-alpha: rgba(0,0,0,.1);
+    --black-color-alpha-1: rgba(0,0,0,.2);
+    --black-color-alpha-2: rgba(0,0,0,.3);
+    --black-color-alpha-3: rgba(0,0,0,.4);
+    --black-color-alpha-4: rgba(0,0,0,.5);
+
+  }
+  
+  /* =======================================
+        * CLASSES BACKGROUND COLORS 
+  =========================================*/
+  
+  .bg-white{background-color: var(--white-color);}
+  .bg-black{background-color: var(--black-color);}
+  .bg-blue{background-color: var(--blue-color);}
+  .bg-green{background-color: var(--green-color);}
+  .bg-yellow{background-color: var(--yellow-color);}
+  .bg-red{background-color: var(--red-color);}
+  .bg-gray{background-color: var(--gray-color);}
+  
+  
+  /* =======================================
+        * CLASSES TEXT COLORS 
+  =========================================*/
+  
+  .text-white{color: var(--white-color);}
+  .text-black{color: var(--black-color);}
+  .text-blue{color: var(--blue-color);}
+  .text-green{color: var(--green-color);}
+  .text-yellow{color: var(--yellow-color);}
+  .text-red{color: var(--red-color);}
+  .text-gray{color: var(--gray-color);}
+  
+  
